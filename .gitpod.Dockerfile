@@ -14,6 +14,7 @@ RUN apt-get update && \
     rm -rf /tmp/* && 
 
 # Copy exercices content into the image
-COPY --chown=gitpod content/ /home/gitpod/docker-exercises
+COPY --chown=gitpod exercises/ /home/gitpod/exercises
+COPY --chown=gitpod solutions/ /home/gitpod/solutions
 
 USER gitpod
