@@ -1,0 +1,9 @@
+version: '3.3'
+
+services:
+  
+  postgress:
+    image: postgres
+
+  pgadmin:
+    image: dpage/pgadmin4
