@@ -1,4 +1,4 @@
-# Exercise 3 - Using docker compose
+# Exercise 4 - Using docker compose
 
 In this exercise you orchestrate multiple containers using docker compose
 
